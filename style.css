@@ -1,0 +1,12 @@
+
+.text{
+    padding-top: 7em;
+    color: blue;
+    font-size: bold;
+}
+
+.logo{
+    height: 30%;
+    width: 25%;
+    float: center;
+}
