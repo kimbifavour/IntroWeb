@@ -2,5 +2,85 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body{
+    background-image: url('/images/Background.png');
+    background-size: cover;
+    width: 100vw;
+
     font-family: 'Balsamiq Sans', cursive, 'Poppins';
+    color: black;
+    font-size: 15px;
+    list-style: none;
+}
+
+:root{
+    --color-primary: #CC57F0;
+    --color-blend-1: #8E18B8;
+    --color-blend-2: #7947C2;
+}
+
+.landing-page{
+    margin: 2rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.container .logo{
+    margin-left: 2rem;
+}
+
+.container .menu ul{
+    display: flex;
+    width: 5rem;
+    list-style: none;
+    margin-top: .7rem;
+
+}
+
+.container .menu li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    padding: 2rem;
+
+}
+
+.hero-section{
+    display: flex;
+    flex-direction: row;
+    padding: 7rem;
+    padding-left: 12rem ;
+
+}
+
+.hero-section .hero-text{
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.hero-section .hero-text .intro-text span{
+    font-size: 70px;
+}
+
+.hero-section .hero-text .socials{
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+}
+.hero-section .hero-text .socials img{
+    padding: .8rem;
+    margin-left: 1rem;
+}
+
+.hero-section .hero-image img{
+    position: absolute;
+    right: 20rem;
+    top: 8rem;
 }
