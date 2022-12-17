@@ -80,7 +80,7 @@ body{
 }
 
 .hero-section .hero-image img{
-    position: absolute;
-    right: 20rem;
-    top: 8rem;
+    position: relative;
+    right: -20rem;
+    top: -4rem;
 }
