@@ -10,4 +10,4 @@ So I want to use these 'non-functional' designs to learn the ins and outs of fro
 
 ### Link to figma file A.K.A Expectation
 
-https://www.figma.com/proto/xbEBvYM4744dRng2TzhoYr?page-id=0%3A1&node-id=0%3A1&scaling=min-zoom
+https://www.figma.com/proto/xbEBvYM4744dRng2TzhoYr/Portfolio?node-id=1%3A3
